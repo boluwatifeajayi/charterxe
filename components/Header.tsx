@@ -35,11 +35,11 @@ const Header: React.FC = () => {
     <nav
       className={`${
         scrolling ? 'header-scroll' : 'bg-transparent'
-      } px-6 md:px-16 py-5 flex nav items-center fixed w-full top-0 z-10`}
+      } px-3 md:px-20 py-5 flex nav items-center fixed w-full top-0 z-10`}
     >
       <div className="flex items-center">
         <Image alt="logo" src={logo} onClick={() => scrollToSection('hero')} className="mr-20" />
-        <ul className="flex space-x-5 inv text-sm text-gray-100 font-thin mr-32">
+        <ul className="flex space-x-6 inv text-sm text-gray-100 font-thin mr-32">
           <li className="cursor-pointer hover:font-bold" onClick={() => scrollToSection('about-us')}>
             About Us
           </li>
@@ -61,10 +61,10 @@ const Header: React.FC = () => {
         </ul>
       </div>
       <div className="flex space-x-4">
-        <button className="bg-gray-500 px-2 md:px-5 py-3 text-xs md:text-sm inv text-white border-gray-50 bg-opacity-30 p-2 rounded">
+        <button className="bg-gray-500 px-2 sm:px-5 py-3 text-xs sm:text-sm inv text-white border-gray-50 bg-opacity-30 p-2 rounded">
           Contact Us
         </button>
-        <button onClick={() => scrollToSection('request-quote')} className="text-white px-2 md:px-5 py-3 text-xs md:text-sm font-semibold primary-bg rounded">
+        <button onClick={() => scrollToSection('request-quote')} className="text-white px-2 sm:px-5 py-3 text-xs sm:text-sm font-semibold primary-bg rounded">
           Request Quote
         </button>
       </div>
