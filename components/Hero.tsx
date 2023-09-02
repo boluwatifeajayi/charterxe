@@ -26,7 +26,7 @@ const Hero = () => {
   };
 
   return (
-    <section style={gradientBackground} className='px-20 bg-blue-950 justify-center'>
+    <section id="hero" style={gradientBackground} className='px-20 bg-blue-950 justify-center'>
       <div className='flex pt-24 gap-28 hero'>
         <div className="flex flex-col">
           <div>

@@ -7,7 +7,7 @@ const Story: React.FC = () => {
   
 
   return (
-    <section className='story px-20 py-16 bg-[#F0F9FF]'>
+    <section id="about-us" className='story px-20 py-16 bg-[#F0F9FF]'>
         <div className='flex hero gap-32'>
             <div>
                 <p className='text-[#0129A4] font-bold'>OUR STORY</p>

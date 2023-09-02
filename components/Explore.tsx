@@ -14,6 +14,9 @@ const Explore: React.FC = () => {
     { id: 4, imageSrc: planea, title: 'Cessna Citation X', smallText: 'Small Text 4' },
     { id: 5, imageSrc: planeb, title: 'Global 7500', smallText: 'Small Text 5' },
     { id: 6, imageSrc: planec, title: 'Bombardier Challenger 350', smallText: 'Small Text 6' },
+    { id: 7, imageSrc: planea, title: 'Cessna Citation X', smallText: 'Small Text 4' },
+    { id: 8, imageSrc: planeb, title: 'Global 7500', smallText: 'Small Text 5' },
+    { id: 9, imageSrc: planec, title: 'Bombardier Challenger 350', smallText: 'Small Text 6' },
    
   ];
 
@@ -31,7 +34,7 @@ const Explore: React.FC = () => {
   const visibleCards = cardData.slice(currentCard, currentCard + cardsPerPage);
 
   return (
-    <section className='story px-20 py-20 bg-[#F8F8F8]'>
+    <section id="explore" className='story px-20 py-20 bg-[#F8F8F8]'>
       <div className='hero'>
         <div>
           <p className='text-[#0129A4] font-bold text-center'>EXPLORE</p>
@@ -45,15 +48,18 @@ const Explore: React.FC = () => {
           <div className='relative mt-8'>
             <div className='overflow-hidden'>
               <div className='flex gap-6 transition-transform duration-300 ease-in-out transform -translate-x-${currentCard * (100 / cardsPerPage)}%'>
-                {visibleCards.map((card) => (
-                  <div key={card.id} className={`w-full bg-center text-center justify-center bg-white rounded-lg p-4 md:w-${100 / cardsPerPage}`}>
-                    <div className='rounded-lg overflow-hidden'>
-                      <Image src={card.imageSrc} alt='Card Image' className='bg-center pl-8  plane-img'/>
-                    </div>
-                    <h3 className='text-[#18254A] text-xl mt-2 font-bold'>{card.title}</h3>
-                    <Image src={tag} alt="tag" className='plane-img mt-4 pl-16'/>
-                  </div>
-                ))}
+              {visibleCards.map((card) => (
+  <div key={card.id} className={`w-full bg-white rounded-lg p-4 md:w-${100 / cardsPerPage}`}>
+    <div className='flex flex-col items-center justify-center rounded-lg overflow-hidden'>
+      <Image src={card.imageSrc} alt='Card Image' className='plane-img' />
+      <h3 className='text-[#18254A] text-xl mt-2 font-bold text-center'>{card.title}</h3>
+      <div className='flex items-center justify-center mt-4'>
+        <Image src={tag} alt="tag" className='plane-img' />
+      </div>
+    </div>
+  </div>
+))}
+
               </div>
             </div>
             {cardData.length > cardsPerPage && (

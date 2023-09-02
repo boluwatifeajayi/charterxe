@@ -8,7 +8,7 @@ const Request: React.FC = () => {
   
 
   return (
-    <section className='story bg-[#F0F9FF]'>
+    <section id="request-quote" className='story bg-[#F0F9FF]'>
       <div className='flex'>
         <div className='w-1/2 hero'>
           <Image src={tick} alt="image" />
@@ -73,7 +73,7 @@ const Request: React.FC = () => {
            
             </div>
 
-            <div className='flex mt-7 gap-5'>
+            <div className='flex mt-7 gap-4'>
             <div className='w-1/2' >
             <label className='text-[#18254A] mb-3'>Choose Date</label>
             <input

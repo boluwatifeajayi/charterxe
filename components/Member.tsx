@@ -4,7 +4,7 @@ import join from '../assets/images/imgg.png';
 
 const Member: React.FC = () => {
   return (
-    <section className='story px-20 py-20 bg-[#F8F8F8] relative'>
+    <section id="membership-form" className='story px-20 py-20 bg-[#F8F8F8] relative'>
       <div className='hero relative'>
         <Image alt='img' src={join} className='w-full' />
 

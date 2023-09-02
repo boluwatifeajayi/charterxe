@@ -5,6 +5,10 @@ import Services from "@/components/Services"
 import Explore from "@/components/Explore"
 import Request from "@/components/Requst"
 import Member from "@/components/Member"
+import Testimonials from "@/components/Testimonials"
+import Faq from "@/components/Faq"
+import Footer from "@/components/Footer"
+
 
 export default function Home() {
   return (
@@ -16,6 +20,9 @@ export default function Home() {
       <Explore/>
       <Request/>
       <Member/>
+      <Testimonials/>
+      <Faq/>
+      <Footer/>
     </main>
   )
 }
