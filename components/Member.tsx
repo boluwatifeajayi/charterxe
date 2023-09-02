@@ -28,7 +28,7 @@ const Member: React.FC = () => {
     </section>
     <section className='bg-[#0129A4] mx-6 vis text-white my-8 rounded-lg px-5 py-6'>
     <p className='mb-4'>BECOME A MEMBER</p>
-          <h2 className='text-3xl font-bold'>Ready To Be Part Of Us ?</h2>
+          <h2 className='text-2xl sm:text-3xl font-bold'>Ready To Be Part Of Us ?</h2>
           <p className='mt-4'>Kindly provide your email address below to initiate your membership registration with Charter XE. Our team will promptly reach out to you upon receiving your information.</p>
 
           <input
