@@ -4,6 +4,32 @@ import Image from 'next/image';
 import man from '../assets/images/man-video.png';
 
 const Story: React.FC = () => {
+
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
 
   return (
@@ -18,7 +44,7 @@ const Story: React.FC = () => {
                 <p className='text-[#18254A] mt-7'>
                 Our commitment resonates in every air mile, crafting experiences <br/> that elevate your journey to a realm of unparalleled opulence <br/> and unforgettable memories
                 </p>
-                <button className="text-[#18254A] mt-5 px-5 py-3 text-sm font-bold bg-[#C0E1F4] rounded">View Our Services</button>
+                <button onClick={() => scrollToSection('services')} className="text-[#18254A] mt-5 px-5 py-3 text-sm font-bold bg-[#C0E1F4] rounded">View Our Services</button>
             </div>
             <div className='inv'>
                 <Image src={man} alt="man"/>

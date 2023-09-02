@@ -22,7 +22,7 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section className='story px-6 md:px-20 py-16 bg-[#fff]'>
+    <section id="services" className='story px-6 md:px-20 py-16 bg-[#fff]'>
       <div className='block md:flex hero gap-2 md:gap-32'>
         <div>
           <p className='text-[#0129A4] font-bold'>OUR SERVICES</p>
