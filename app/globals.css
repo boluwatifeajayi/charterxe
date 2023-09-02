@@ -61,3 +61,18 @@ body{
 .animate-floating {
   animation: floating 2s ease-in-out infinite;
 }
+
+.vis{
+  display: none;
+}
+
+@media (max-width: 800px){
+  .inv{
+    display: none;
+  }
+  .vis{
+    display: block;
+  }
+  
+}
+

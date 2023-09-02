@@ -26,8 +26,8 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" style={gradientBackground} className='px-20 bg-blue-950 justify-center'>
-      <div className='flex pt-24 gap-28 hero'>
+    <section id="hero" style={gradientBackground} className='px-5 hero-2 md:px-3 bg-blue-950 w-full'>
+      <div className='block md:flex pt-52 pb-48 md:pb-0 md:pt-24 md:gap-28 hero'>
         <div className="flex flex-col">
           <div>
             <h2 className='text-5xl font-bold text-blue-50'>
@@ -37,7 +37,7 @@ const Hero = () => {
               Immerse yourself in the ultimate luxury travel experience with<br /> us. Our world of opulence is tailored to elevate every moment <br /> of your journey.
             </p>
           </div>
-          <div className='flex mt-auto'>
+          <div className='flex mt-4 md:mt-auto'>
             <Link href="#">
               <Image className='' src={play} alt='playstore' />
             </Link>
@@ -45,7 +45,7 @@ const Hero = () => {
               <Image className='' src={apple} alt='appstore' />
             </Link>
           </div>
-          <Image className='ml-3' src={country} alt='countries' />
+          <Image className='ml-0 md:ml-3' src={country} alt='countries' />
         </div>
         <motion.div 
           className="flex items-end"
@@ -53,7 +53,7 @@ const Hero = () => {
           animate="visible"
           variants={phoneVariants}
         >
-          <div>
+          <div className='inv'>
             <Image className='ml-3 animate-floating' src={phone} alt='phone' />
           </div>
         </motion.div>

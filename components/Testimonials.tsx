@@ -41,15 +41,15 @@ const Testimonials: React.FC = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
-    <section id="testimonials" className='px-20 py-16 bg-[#fff]'>
-      <div className='flex gap-32'>
-        <div className='w-1/2'>
+    <section id="testimonials" className='px-6 md:px-20 py-16 bg-[#fff]'>
+      <div className='block md:flex gap-2 md:gap-32'>
+        <div className='w-full md:w-1/2'>
           <p className='text-[#0129A4] font-bold'>TESTIMONIALS</p>
           <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>
             Hear from passengers who <br /> have experienced us
           </p>
         </div>
-        <div className='w-1/2'>
+        <div className='w-full md:w-1/2'>
           <p className='text-gray-500 mt-8'>
             Charter XE provided an unparalleled travel experience. From the<br/> luxurious jet options to the impeccable service, every detail was taken <br/> care of. Traveling has never been this seamless and opulent.
           </p>

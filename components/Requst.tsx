@@ -8,13 +8,13 @@ const Request: React.FC = () => {
   
 
   return (
-    <section id="request-quote" className='story bg-[#F0F9FF]'>
-      <div className='flex'>
-        <div className='w-1/2 hero'>
+    <section id="request-quote" className='story py-8 bg-[#F0F9FF]'>
+      <div className='block md:flex'>
+        <div className='w-full md:w-1/2 hero'>
           <Image src={tick} alt="image" />
         </div>
-        <div className='bg-[#F0F9FF] w-1/2'>
-          <div className='mt-16 hero mx-14'>
+        <div className='bg-[#F0F9FF] w-full md:w-1/2'>
+          <div className='mt-16 hero mx-6 md:mx-14'>
           <p className='text-[#0129A4] font-bold'>REQUEST QUOTE</p>
           <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>
             We leave the customising<br/> to you.

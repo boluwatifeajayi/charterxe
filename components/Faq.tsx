@@ -22,16 +22,16 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <section id="faq" className='story px-20 py-16 bg-[#F0F9FF]'>
-      <div className='flex gap-32'>
-        <div className='w-1/2'>
+    <section id="faq" className='story px-6 md:px-20 py-16 bg-[#F0F9FF]'>
+      <div className='block md:flex gap-2 md:gap-32'>
+        <div className='w-full md:w-1/2'>
           <p className='text-[#0129A4] font-bold'>FAQ</p>
           <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>
             Frequently Asked <br />
             Questions
           </p>
         </div>
-        <div className='w-1/2'>
+        <div className='w-full md:w-1/2'>
           <div className='mt-12'>
             {/* Accordions */}
             {accordionItems.map((item, index) => (

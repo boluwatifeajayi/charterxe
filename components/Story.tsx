@@ -7,8 +7,8 @@ const Story: React.FC = () => {
   
 
   return (
-    <section id="about-us" className='story px-20 py-16 bg-[#F0F9FF]'>
-        <div className='flex hero gap-32'>
+    <section id="about-us" className='story px-6 md:px-20 py-16 bg-[#F0F9FF]'>
+        <div className='block md:flex hero gap-2 md:gap-32'>
             <div>
                 <p className='text-[#0129A4] font-bold'>OUR STORY</p>
                 <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>Extraordinary private <br/> jet experiences</p>
@@ -20,7 +20,7 @@ const Story: React.FC = () => {
                 </p>
                 <button className="text-[#18254A] mt-5 px-5 py-3 text-sm font-bold bg-[#C0E1F4] rounded">View Our Services</button>
             </div>
-            <div>
+            <div className='inv'>
                 <Image src={man} alt="man"/>
             </div>
         </div>
