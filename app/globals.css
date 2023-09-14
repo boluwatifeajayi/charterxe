@@ -8,6 +8,8 @@ body{
   font-family: 'Century Gothic Paneuropean', sans-serif;                                          
 }
 
+
+
 .primary-text{
   color: #0129A4;
 }
@@ -24,8 +26,8 @@ body{
   background-color: #18254A;
 }
 
-.header-scroll{
-  background-color: #03193c;
+.header-scroll {
+  background: rgba(46, 45, 45, 0.7); 
 }
 
 .hero{
@@ -74,5 +76,9 @@ body{
     display: block;
   }
   
+}
+
+.main-hero {
+  background-image: url('../assets/images/bg-plane.png');
 }
 

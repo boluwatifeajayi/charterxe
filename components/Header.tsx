@@ -61,10 +61,10 @@ const Header: React.FC = () => {
         </ul>
       </div>
       <div className="flex space-x-4">
-        <button className="bg-gray-500 px-2 sm:px-5 py-3 text-xs sm:text-sm inv text-white border-gray-50 bg-opacity-30 p-2 rounded">
+        <button className="px-2 sm:px-5 py-3 text-xs sm:text-sm inv text-white border border-gray-100 bg-opacity-30 p-2 rounded">
           Contact Us
         </button>
-        <button onClick={() => scrollToSection('request-quote')} className="text-white px-2 sm:px-5 py-3 text-xs sm:text-sm font-semibold primary-bg rounded">
+        <button onClick={() => scrollToSection('request-quote')} className="text-blue-700  px-2 sm:px-5 py-3 text-xs sm:text-sm font-bold bg-white rounded">
           Request Quote
         </button>
       </div>
