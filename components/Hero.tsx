@@ -68,7 +68,7 @@ const Hero = () => {
           bottom: 0,
         }}
       >
-        <div className="block md:flex main-hero mt-2 md:mt-48 pb-52 main-hero md:pb-0 pt-32 md:pt-24 md:gap-44 hero">
+        <div className="block md:flex main-hero mt-2 md:mt-60 pb-52 main-hero md:pb-0 pt-32 md:pt-24 md:gap-44 hero">
           <div className="flex flex-col">
             <div>
               <h2 className="text-5xl font-bold text-blue-50">
@@ -104,7 +104,7 @@ const Hero = () => {
             }}
           >
 
-              <span onClick={() => scrollToSection('about-us')} className='cursor-pointer'>
+              <span onClick={() => scrollToSection('about-us')} className='cursor-pointer mt-20'>
               <Image className="h-full w-6 text-white mx-auto" src={scroll} alt="appstore" />
               <p className='text-xs mt-3 text-white'>CLICK TO SCROLL</p>
               </span>

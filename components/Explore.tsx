@@ -96,13 +96,13 @@ const Explore: React.FC = () => {
              
                 <div className="carousel-controls absolute top-1/2 transform -translate-y-1/2 flex justify-between w-full">
                   <button
-                    className="prev rounded-full bg-blue-500 text-white p-3 px-5 absolute top-1/2 left-1 sm:left-0 transform -translate-y-1/2"
+                    className="prev rounded-full border text-white p-3 px-5 absolute top-1/2 left-1 sm:left-0 transform -translate-y-1/2"
                     onClick={handlePrev}
                   >
                     &lt;
                   </button>
                   <button
-                    className="next rounded-full bg-blue-500 text-white p-3 px-5 absolute top-1/2 right-1 sm:right-0 transform -translate-y-1/2"
+                    className="next rounded-full border text-white p-3 px-5 absolute top-1/2 right-1 sm:right-0 transform -translate-y-1/2"
                     onClick={handleNext}
                   >
                     &gt;
