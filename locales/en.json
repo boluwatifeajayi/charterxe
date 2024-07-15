@@ -1,0 +1,530 @@
+{
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, fr {🇩🇪 French} en {🇺🇸 English} other {Unknown}}"
+      },
+  "header": {
+    "menu": {
+      "about": {
+        "title": "About Us",
+        "link": "about-us"
+      },
+      "explore": {
+        "title": "Explore",
+        "link": "explore"
+      },
+      "request": {
+        "title": "Request Quote",
+        "link": "request-quote"
+      },
+      "member": {
+        "title": "Membership",
+        "link": "membership-form"
+      },
+      "testtimonials": {
+        "title": "Aircraft Types",
+        "link": "testimonials"
+      },
+      "faq": {
+        "title": "FAQ",
+        "link": "faq"
+      }
+    },
+    "cta": "Contact Us",
+    "request": "Request Quote"
+  },
+  "hero": {
+    "title": {
+      "one": "We offer the Ultimate  ",
+      "two": "experience in Private",
+      "three": "Jet Charter"
+    },
+    "sub": "Charter a private jet and experience the convenience of air travel with Charterxe. Book your flight in just a few clicks and receive personalized experiences available 24/7.",
+    "scroll": "Click to scroll"
+  },
+  "story": {
+    "badge": "OUR STORY",
+    "title": "Extraordinary private jet experiences",
+    "p1": "Embark on a voyage into the very soul of luxury travel with Charter XE. Our private jet charter services offer the ultimate in luxury travel, combined with uncompromising safety standards and impeccable VIP service. With our mobile app or website, booking is seamless, easy, and fast. Our objective is to provide our clients with unlimited access, speed, comfort, and reliability consistently.",
+    "p2": "Our commitment resonates in every air mile, crafting experiences that elevate your journey to a realm of unforgettable memories.",
+    "cta": "See More"
+  },
+  "services": {
+    "badge": "OUR SERVICES",
+    "title": "Where luxury and travel converge at 30,000 feet",
+    "p1": "Step into a world where luxury and travel seamlessly unite at soaring altitudes. Enhance your experience with stunning interiors, tailor-made service, and awe-inspiring views.",
+    "services": {
+      "1": {
+        "title": "Private Jet Charters",
+        "content": "Elevate your travel with our Private Jet Charters. Unparalleled comfort, unmatched service, and seamless journeys await you.",
+        "isOpen": false
+      },
+      "2": {
+        "title": "Personalized Itineraries",
+        "content": "Craft your dream travel experience with our personalized itineraries. Tailored to your preferences, every moment becomes a cherished memory.",
+        "isOpen": false
+      },
+      "3": {
+        "title": "Effortless Booking",
+        "content": "Say goodbye to hassles. With our effortless booking process, your private jet journey begins with a click. Simple, swift, and stress-free.",
+        "isOpen": false
+      },
+      "4": {
+        "title": "Exclusive Membership",
+        "content": "Join our exclusive membership and open doors to a realm of VIP treatment. Enjoy benefits beyond compare and access to a lifestyle of luxury.",
+        "isOpen": false
+      },
+      "5": {
+        "title": "24/7 Concierge",
+        "content": "Our dedicated 24/7 concierge service ensures your needs are met round the clock. From reservations to special requests, consider it done.    ",
+        "isOpen": false
+      },
+      "6": {
+        "title": "Global Destinations",
+        "content": "Explore the world with us. From iconic cities to hidden paradises, our global destinations cater to your wanderlust. Your journey, our expertise.    ",
+        "isOpen": false
+      }
+    }
+  },
+  "explore": {
+    "badge": "EXPLORE",
+    "title": "Unveiling a world of luxury aviation",
+    "sub": " Explore our thoughtfully curated collection of premium destinations, each chosen to redefine your travel experience.",
+    "locations": {
+      "1": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Abuja",
+        "date": "On Demand",
+        "price": "From $5,000"
+      },
+      "2": {
+        "img": "../../assets/images/place1.svg",
+        "title": "London",
+        "date": "On Demand",
+        "price": "From $5,000"
+      },
+      "3": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Accra",
+        "date": "On Demand",
+        "price": "From $5,000"
+      },
+      "4": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Lagos",
+        "date": "On Demand",
+        "price": "From $5,000"
+      }
+    }
+  },
+  "requests": {
+    "badge": "REQUEST QUOTE",
+    "title": "We leave the customising to you.",
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "email address"
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your fullname"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "enter phone number"
+      },
+      "tripType": {
+        "label": "Type of Trip",
+        "options": {
+          "1": "One way",
+          "2": "Round trip",
+          "3": "Multi-leg"
+        }
+      },
+      "takeoff": {
+        "label": "Take Off Location",
+        "placeholder": "enter take off location"
+      },
+      "destination": {
+        "label": "Destination",
+        "placeholder": "enter Destination"
+      },
+      "date": {
+        "label": "Take Off Date"
+      },
+      "jetType": {
+        "label": "Jet Type",
+        "options": {
+          "1": "Very Light",
+          "2": "Light",
+          "3": "Midsize",
+          "4": "Super Midsize",
+          "5": "Ultra Long Range Jet",
+          "6": "Executive Airliner"
+        }
+      },
+      "cta": "Request Quote"
+    }
+  },
+  "member": {
+    "badge": "BECOME A MEMBER",
+    "title": "Ready To Be Part Of Us ?",
+    "sub": "Kindly provide your email address below to initiate your membership registration with Charter XE. Our team will promptly reach out to you upon receiving your information.",
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "email address"
+      },
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your fullname"
+      },
+      "cta": "Subscribe"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "types": "Types Of Aircrafts",
+    "sections": {
+      "Booking": {
+        "title": "Booking Process",
+        "questions": {
+          "1": {
+            "question": "How do I cancel my booking?",
+            "answer": "You can cancel your booking by calling our customer support lines, and this will be processed for you easily."
+          },
+          "2": {
+            "question": "How do I reschedule my booking?",
+            "answer": "You can reschedule your trip by following these steps:\n1. Open your mobile app\n2. Select quotes\n3. Click on rescheduled trip\n4. Change the flight time\n5. Confirm the changes and pay."
+          },
+          "3": {
+            "question": "How do I know my flight is confirmed?",
+            "answer": "You will receive an email and in-app confirmation."
+          },
+          "4": {
+            "question": "Can I make last-minute changes to the number of passengers?",
+            "answer": "This can be done, but if it exceeds the capacity of the jet, it will affect the schedule and pricing."
+          },
+          "5": {
+            "question": "Can I choose another arrival airport inflight?",
+            "answer": "Our experienced crew can always handle this for you anytime you need to."
+          }
+        }
+      },
+      "Flight": {
+        "title": "Flight Preparation",
+        "questions": {
+          "1": {
+            "question": "What travel documents will I need?",
+            "answer": "For local flights, we will need just your personal information. For international flights, we will need your passport and visa and the passport and visa of those traveling alongside."
+          },
+          "2": {
+            "question": "How much luggage can I take with me?",
+            "answer": "This is determined by the Jet type you selected and will always be added to your quote."
+          },
+          "3": {
+            "question": "Will I have in-flight access?",
+            "answer": "All clients have in-flight access."
+          }
+        }
+      },
+      "Airport": {
+        "title": "Airport",
+        "questions": {
+          "1": {
+            "question": "Is there a specific terminal for CharterXE?",
+            "answer": "All our clients fly from and land at private terminals"
+          }
+        }
+      },
+      "Onboard": {
+        "title": "Onboard",
+        "questions": {
+          "1": {
+            "question": "Will there be inflight Wi-Fi?",
+            "answer": "Most of our Jets are equipped with inflight Wi-Fi."
+          },
+          "2": {
+            "question": "Will there be sleeping facilities onboard?",
+            "answer": "Some private jets have very comfortable sleeping facilities, and these vary from jet to jet."
+          },
+          "3": {
+            "question": "Is smoking permitted onboard?",
+            "answer": "Some private jets allow smoking onboard but this varies from jet to jet"
+          },
+          "4": {
+            "question": "Are pets allowed onboard?",
+            "answer": "Our clients can carry their pets along on most private jets, and we make sure they are very comfortable for the duration of the flight."
+          }
+        }
+      },
+      "Services": {
+        "title": "Our Services",
+        "questions": {
+          "1": {
+            "question": "What are the on-ground transport options available?",
+            "answer": "Are on-ground options are limitless but tailored to the client’s request"
+          },
+          "2": {
+            "question": "How do I communicate special needs and services?",
+            "answer": "When requesting a qoute, you can fill in what special needs or services you might require and our worldclass team will make it available for you"
+          },
+          "3": {
+            "question": "Does CharterXE book a hotel for me?",
+            "answer": "We have partnered with hotels and resorts to give our customers the best experience, this can always be arranged upon the customers request."
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "menu": {
+      "about": {
+        "title": "About Us",
+        "link": "#about-us"
+      },
+      "explore": {
+        "title": "Explore",
+        "link": "#explore"
+      },
+      "request": {
+        "title": "Request Quote",
+        "link": "#request-quote"
+      },
+      "member": {
+        "title": "Membership Form",
+        "link": "#membership-form"
+      },
+      "testtimonials": {
+        "title": "Testimonials",
+        "link": "#testimonials"
+      },
+      "types": {
+        "title": "Aircraft Types",
+        "link": "/aircrafts"
+      },
+      "tac": {
+        "title": "Terms and Conditions",
+        "link": "/terms"
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "link": "/privacy"
+      }
+    },
+    "connect": {
+      "title": "Connect",
+      "socials": {
+        "instagram": {
+          "title": "Instagram",
+          "link": "https://www.instagram.com/charterxe/"
+        },
+        "twitter": {
+          "title": "Twitter",
+          "link": "https://twitter.com/CharterXE"
+        },
+        "linkedin": {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/company/charterxe/"
+        },
+        "facebook": {
+          "title": "Facebook",
+          "link": "https://web.facebook.com/people/Charterxe/100091496272290/"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: hello@charterxe.com",
+      "phone": "Phone: +23413430615"
+    }
+  },
+  "aircraft": {
+    "hero": {
+      "title": "Knowing more about aircrafts ",
+      "sub": "An aircraft is a specialized vehicle equipped with wings and one or more engines, designed to navigate through the air. While the term \"airplane\" often denotes a specific type of aircraft with fixed wings, the broader term \"aircraft\" encompasses a range of vehicles, including helicopters and more",
+      "scroll": "CLICK TO SCROLL"
+    },
+    "components": {
+      "title": "Aircraft Components",
+      "sub": "What are the basic components of an aircraft",
+      "desc": "A typical aircraft consists of the following main components"
+    },
+    "specs": {
+      "badge": "AIRCRAFT SPECIFICATIONS",
+      "title": "What are the aircraft specifications",
+      "items": {
+        "1": {
+          "title": "Wingspan, Length, and Height",
+          "desc": "The dimensions of an aircraft have an impact on its performance and capacity. A larger wingspan typically provides more lift, while the length and height affect aerodynamics.",
+          "img": "/span.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "2": {
+          "title": "Engine Types and Thrus",
+          "desc": "Aircraft engines are of four types: piston, turbofan, turboprop, and jet. Thrust generated by the engines propels the aircraft forward.",
+          "img": "/sett.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "3": {
+          "title": "Range and Endurance",
+          "desc": "Range is the maximum distance an aircraft can travel before it runs out of fuel, while endurance is the maximum amount of time it can stay in the air.",
+          "img": "/ham.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "4": {
+          "title": "Maximum Takeoff Weight (MTOW)",
+          "desc": "MTOW stands for Maximum Take-Off Weight. It is the maximum weight an aircraft is allowed to have at takeoff, including the weight of the aircraft itself, the fuel, passengers, cargo, and everything else on board.",
+          "img": "/scal.png",
+          "style": {
+            "gridColumn": "span 4 / span 4",
+            "gridColumnStart": "3"
+          }
+        },
+        "5": {
+          "title": "Cruising Speed and Altitude",
+          "desc": "Cruising speed is the average speed during flight, while altitude refers to the height above sea level at which the aircraft operates.",
+          "img": "/meter.png",
+          "style": {
+            "gridColumn": "span 4 / span 4",
+            "gridColumnStart": "7"
+          }
+        }
+      }
+    },
+    "categories": {
+      "badge": "Aircraft Categories",
+      "title": "What are the aircraft categories?",
+      "sub": "An aircraft category is the most general classification of aircraft based on their <br />purpose and operating environment. The various aircraft categories include:",
+      "items": {
+        "1": {
+          "name": "Airplane",
+          "desc": "An airplane is a heavier-than-air vehicle that uses wings to fly. An engine powers it and has fixed wings. The wings create lift, which allows the airplane to fly."
+        },
+        "2": {
+          "name": "Glider",
+          "desc": "Glider description goes here."
+        },
+        "3": {
+          "name": "Rotocraft",
+          "desc": "Rotocraft description goes here."
+        },
+        "4": {
+          "name": "Lighter-Than-Air",
+          "desc": "Lighter-Than-Air description goes here."
+        },
+        "5": {
+          "name": "Power Lift",
+          "desc": "Power Lift description goes here."
+        },
+        "6": {
+          "name": "Weight-Shit Control",
+          "desc": "Weight-Shit Control description goes here."
+        },
+
+        "7": {
+          "name": "Rocket",
+          "desc": "Rocket description goes here."
+        }
+      }
+    },
+    "types": {
+      "badge": "AIRPLANE TYPES",
+      "title": "What types of airplanes are there?",
+      "sub": "Airplanes can be classified into three main categories according"
+    },
+    "privateJet": {
+      "badge": "PRIVATE JET TYPES",
+      "title": "What types of private jets are  available for charter?",
+      "sub": "There are many types of private jets available for charter, ranging from small  light jets to large, long-range aircraft. Here are some common categories:",
+      "types": {
+        "1": {
+          "title": " Very Light Jets (VLJs)",
+          "desc": "Very Light Jets (VLJs) are the smallest private jets in the private jet market. They can carry up to 6 passengers and are typically more cost-effective to operate and maintain than larger jets. Their small size allows them to access smaller airports with shorter runways and narrower taxiways, making them a good option for travel to remote locations. Very Light Jets are for short-haul flights up to 3 hours, perfect for weekend getaways. Luggage space is small, less than 70 cubic feet. Most very light jets are certified for single-pilot operation and have a maximum takeoff mass of less than 4,500 kilograms.. Some of the most commonly used VLJs include:",
+          "items": {
+            "1": "Eclipse 500",
+            "2": " Eclipse 400",
+            "3": "Cessna Citation Mustang",
+            "4": "Embraer Phenom 100",
+            "5": "HondaJet HA-420"
+          }
+        },
+        "2": {
+          "title": "Light Jets",
+          "desc": "Light jets are ideal for shorter trips and smaller groups, typically accommodating 6-8 passengers and flying up to 2,000 miles. These airplanes are a good choice for short trips, and they have the advantage of carrying more cargo than very light jets. Their baggage capacity ranges from 41 to 74 cubic feet.The most well-known aircraft types in this category are:",
+          "items": {
+            "1": "Dassault Falcon 10",
+            "2": "Cessna Citation CJ3",
+            "3": "Cessna Citation CJ4",
+            "4": "Embraer Phenom 300",
+            "5": "Hawker 400 XP",
+            "6": "Learjet 45"
+          }
+        },
+
+        "3": {
+          "title": "Midsize Jets",
+          "desc": " offer more space and a longer range, accommodating 8-10 passengers and flying up to 3,000 miles. Mid-size jets are more cost-effective than larger private jets and can access smaller airports, just like light jets and very light jets. However, unlike very light jets, most mid-size jets have enough standing room for an average adult and additional luggage space of about 127 cubic feet. Aircraft types in this category include:",
+          "items": {
+            "1": "Challenger Jets",
+            "2": "Cessna Citation Latitude",
+            "3": "Hawker 900XP",
+            "4": "Gulfstrream G150",
+            "5": "Learjet 60",
+            "6": "Bombadier Challenger 300"
+          }
+        },
+        "4": {
+          "title": "Super Midsize Jets",
+          "desc": "Super midsize jets are relatively larger than mid-size luxury private jets, they provide even more cabin space and accommodate 8-12 passengers, flying up to 4,000 miles. These aircraft can fly continuously for seven hours at cruising altitudes and speeds, covering over 3,500 nautical miles.  The most well-known super mid-size jets are:",
+          "items": {
+            "1": "Cessna Citation X",
+            "2": "Dassault Falcon 2000",
+            "3": "Cessna Citation Sovereign",
+            "4": " Bombardier Challenger 350",
+            "5": "Gulfstream G200",
+            "6": "Gulfstream G280"
+          }
+        },
+        "5": {
+          "title": "Heavy Jets",
+          "desc": "Heavy jets, aircraft in this category are more opulent and costly to operate and maintain than super mid-size jets. They have larger wingspans and larger fuel tanks, which give them an endurance of around 9 hours or 6,000 kilometers. They are designed for long-range travel, accommodating 10-18 passengers and flying up to 4,000-7,500 miles. Aircraft in this category need longer runways, so passengers may experience delays in congested airports. Aircrafts in this category include:",
+          "items": {
+            "1": "Dassault Falcon 900",
+            "2": "Gulfstream G350",
+            "3": "Cessna Citation Sovereign",
+            "4": " Bombardier Challenger 350"
+          }
+        },
+        "6": {
+          "title": "Ultra-Long-Range Jets",
+          "desc": "Ultra-long-range jets are built for the most extended trips, accommodating 12-19 passengers and flying over 7,500 miles. This range allows for approximately 12 hours of flying time at cruising speed. Ultra long-range heavy jets are suitable for trans-oceanic flights between continents and are ideal for frequent long-distance travelers. These private jets are more expensive to charter, rent, or purchase than other smaller categories, and are seen as a symbol of luxury and comfort by most travelers who choose them for air travel. The most well-known ultra-long-range heavy jets are:",
+          "items": {
+            "1": "BomBombardier Global 6000",
+            "2": "Embraer Lineage 1000",
+            "3": "Dassault Falcon 7x",
+            "4": " Gulfstream V",
+            "5": "Bombardier Global 7500"
+          }
+        },
+        "7": {
+          "title": "Executive Airliners",
+          "desc": "Executive airliners (also called Bizliners) are large, expensive private jets for 20-50 passengers. They have luxury features and business amenities like conference rooms and showers. Air Force One is an example, with advanced military systems. Aircraft in this category are either custom-manufactured or converted from commercial jetliners. They are used by heads of state, celebrities, and wealthy individuals. The following are some of the bizliners available in the market:",
+          "items": {
+            "1": " Airbus Corporate Jet ACJ 380",
+            "2": "Airbus corporate Jet ACJ 319",
+            "3": "Boeing Business Jet BBJ",
+            "4": " Gulfstream V",
+            "5": "Bombardier Global 7500"
+          }
+        }
+      }
+    }
+  }
+}

@@ -41,11 +41,14 @@ const Testimonials: React.FC = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
-    <section id="testimonials" className='px-6 md:px-20 py-16 bg-[#fff]'>
+    <div>
+
+   
+    <section id="testimonials" className='px-6 md:px-20 py-16 container mx-auto'>
       <div className='block md:flex gap-2 md:gap-32'>
         <div className='w-full md:w-1/2'>
           <p className='text-[#0129A4] font-bold'>TESTIMONIALS</p>
-          <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>
+          <p className='text-[#18254A] text-3xl sm:text-4xl font-bold mt-2 mb-5'>
             Hear from passengers who <br /> have experienced us
           </p>
         </div>
@@ -121,6 +124,7 @@ const Testimonials: React.FC = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

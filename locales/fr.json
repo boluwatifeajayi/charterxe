@@ -1,0 +1,524 @@
+{
+  "LocaleSwitcher": {
+    "label": "Changer la langue",
+    "locale": "{locale, select, fr {🇩🇪 Français} en {🇺🇸 Anglais} other {Inconnu}}"
+  },
+  "header": {
+    "menu": {
+      "about": {
+        "title": "A propos de nous",
+        "link": "about-us"
+      },
+      "explore": {
+        "title": "Explorer",
+        "link": "explore"
+      },
+      "request": {
+        "title": "Demande de devis",
+        "link": "request-quote"
+      },
+      "member": {
+        "title": "Formulaire d'adhésion",
+        "link": "membership-form"
+      },
+      "testtimonials": {
+        "title": "Témoignages",
+        "link": "testimonials"
+      },
+      "faq": {
+        "title": "FAQ",
+        "link": "faq"
+      }
+    },
+    "cta": "Nous contacter",
+    "request": "Demande de devis"
+  },
+  "hero": {
+    "title": {
+      "one": "Nous offrons l'expérience ",
+      "two": "ultime du voyage",
+      "three": "de luxe"
+    },
+    "sub": "Découvrez la liberté et la commodité du transport aérien avec Charterxe. Réservez votre vol en quelques quelques clics et bénéficiez d'une expérience personnalisée 24 heures sur 24, 7 jours sur 7.",
+    "scroll": "Cliquer pour dérouler"
+  },
+  "story": {
+    "badge": "NOTRE HISTOIRE",
+    "title": "Voyages privés extraordinaires",
+    "p1": "Embarquez pour un voyage au cœur de l'âme du luxe avec Charter XE. Nos services d'affrètement de jets privés offrent le summum du voyage de luxe, associé à des normes de sécurité sans compromis et à un service VIP impeccable. Grâce à notre application mobile ou à notre site web, la réservation est transparente, facile et rapide. Notre objectif est de fournir à nos clients un accès illimité, une rapidité, un confort et une fiabilité constants.",
+    "p2": "Notre engagement résonne dans chaque mile aérien, en créant des expériences qui élèvent votre voyage au rang de souvenirs inoubliables.",
+    "cta": "En savoir plus"
+  },
+  "services": {
+    "badge": "NOS SERVICES",
+    "title": "Là où le luxe et le voyage convergent à 30 000 pieds d'altitude",
+    "p1": "Entrez dans un monde où le luxe et le voyage s'unissent parfaitement à des altitudes élevées. Vous profiterez d'intérieurs magnifiques, d'un service sur mesure et d'une vue imprenable.",
+    "services": {
+      "1": {
+        "title": "Affrètement de jets privés",
+        "content": "Donnez de l'ampleur à votre voyage grâce à nos vols en jet privé. Un confort inégalé, un service incomparable et des voyages sans faille vous attendent."
+      },
+      "2": {
+        "title": "Itinéraires personnalisés",
+        "content": "Créez l'expérience de voyage de vos rêves grâce à nos itinéraires personnalisés. Adapté à vos préférences, chaque moment devient un souvenir précieux."
+      },
+      "3": {
+        "title": "Des réservations faciles",
+        "content": "Dites adieu aux tracas. Grâce à notre processus de réservation sans effort, votre voyage en jet privé commence en un clic. Simple, rapide et sans stress."
+      },
+      "4": {
+        "title": "Adhésion exclusive",
+        "content": "Devenez membre exclusif et ouvrez les portes d'un monde de traitement VIP. Profitez d'avantages incomparables et accédez à un style de vie luxueux."
+      },
+      "5": {
+        "title": "Concierge 24/7",
+        "content": "Notre service de conciergerie dédié, disponible 24 heures sur 24 et 7 jours sur 7, veille à ce que vos besoins soient satisfaits à toute heure du jour et de la nuit. Qu'il s'agisse de réservations ou de demandes spéciales, tout est fait."
+      },
+      "6": {
+        "title": "Global Destinations",
+        "content": "Explore the world with us. From iconic cities to hidden paradises, our global destinations cater to your wanderlust. Your journey, our expertise."
+      }
+    }
+  },
+  "explore": {
+    "badge": "EXPLORER",
+    "title": "Un monde d'aviation de luxe",
+    "sub": "Explorez notre collection de destinations haut de gamme, choisies pour redéfinir votre expérience de voyage.",
+    "locations": {
+      "1": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Abuja",
+        "date": "Sur demande",
+        "price": "A partir de $5,000"
+      },
+      "2": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Londres",
+        "date": "Sur demande",
+        "price": "A partir de $5,000"
+      },
+      "3": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Accra",
+        "date": "Sur demande",
+        "price": "A partir de $5,000"
+      },
+      "4": {
+        "img": "../../assets/images/place1.svg",
+        "title": "Lagos",
+        "date": "Sur demande",
+        "price": "A partir de $5,000"
+      }
+    }
+  },
+  "requests": {
+    "badge": "DEMANDE DE DEVIS",
+    "title": "Nous vous laissons le soin de personnaliser.",
+    "form": {
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Adresse e-mail"
+      },
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez Numéro de téléphone"
+      },
+      "tripType": {
+        "label": "Type de voyage",
+        "options": {
+          "1": "One way",
+          "2": "Round trip",
+          "3": "Multi-leg"
+        }
+      },
+      "takeoff": {
+        "label": "Lieu de décollage",
+        "placeholder": "Entrez lieu de décollage"
+      },
+      "destination": {
+        "label": "Destination",
+        "placeholder": "Entrez Destination"
+      },
+      "date": {
+        "label": "Date de décollage"
+      },
+      "jetType": {
+        "label": "Type de jet",
+        "options": {
+          "1": "Very Light",
+          "2": "Light",
+          "3": "Midsize",
+          "4": "Super Midsize",
+          "5": "Ultra Long Range Jet",
+          "6": "Executive Airliner"
+        }
+      },
+      "cta": "Demande de devis"
+    }
+  },
+  "member": {
+    "badge": "DEVENIR MEMBRE",
+    "title": "Prêt à faire partie de notre équipe ?",
+    "sub": "Veuillez fournir votre adresse e-mail ci-dessous pour initier votre inscription en tant que membre de Charter XE. Notre équipe vous contactera rapidement dès réception de vos informations.",
+    "form": {
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "Adresse e-mail"
+      },
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet"
+      },
+      "cta": "Subscribe"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "types": "Types d'aéronefs",
+    "sections": {
+      "Booking": {
+        "title": "Processus de réservation",
+        "questions": {
+          "1": {
+            "question": "Comment puis-je annuler ma réservation?",
+            "answer": "Vous pouvez annuler votre réservation en appelant notre service d'assistance à la clientèle, qui s'en chargera facilement."
+          },
+          "2": {
+            "question": "Comment puis-je reporter ma réservation?",
+            "answer": "Vous pouvez reporter votre voyage en suivant les étapes suivantes : 1. Ouvrez votre application mobile 2. Sélectionnez les devis 3. Cliquez sur le voyage reprogrammé 4. Modifiez l'heure du vol 5. Confirmez les modifications et payez."
+          },
+          "3": {
+            "question": "Comment puis-je savoir que mon vol est confirmé?",
+            "answer": "Vous recevrez un e-mail et une confirmation dans l'application."
+          },
+          "4": {
+            "question": "Puis-je modifier le nombre de passagers à la dernière minute ?",
+            "answer": "C'est possible, mais si cela dépasse la capacité du jet, cela affectera l'horaire et le prix."
+          },
+          "5": {
+            "question": "Puis-je choisir un autre aéroport d'arrivée en vol ?",
+            "answer": "Notre équipage expérimenté peut toujours s'en charger à tout moment."
+          }
+        }
+      },
+      "Flight": {
+        "title": "Préparation du vol",
+        "questions": {
+          "1": {
+            "question": "De quels documents de voyage ai-je besoin ?",
+            "answer": "Pour les vols locaux, nous n'avons besoin que de vos informations personnelles. Pour les vols internationaux, nous aurons besoin de votre passeport et de votre visa, ainsi que du passeport et du visa des personnes voyageant à vos côtés."
+          },
+          "2": {
+            "question": "Combien de bagages puis-je emporter ?",
+            "answer": "Ceci est déterminé par le type de jet que vous avez sélectionné et sera toujours ajouté à votre devis."
+          },
+          "3": {
+            "question": "Aurai-je accès au vol ?",
+            "answer": "Tous les clients ont accès au vol."
+          }
+        }
+      },
+      "Airport": {
+        "title": "Aéroport",
+        "questions": {
+          "1": {
+            "question": "Y a-t-il un terminal spécifique pour CharterXE ?",
+            "answer": "Tous nos clients volent et atterrissent dans des terminaux privés."
+          }
+        }
+      },
+      "Onboard": {
+        "title": "À bord",
+        "questions": {
+          "1": {
+            "question": "Y aura-t-il une connexion Wi-Fi à bord ?",
+            "answer": "La plupart de nos Jets sont équipés d'une connexion Wi-Fi à bord."
+          },
+          "2": {
+            "question": "Y a-t-il des installations de couchage à bord ?",
+            "answer": "Certains jets privés disposent d'installations de couchage très confortables, qui varient d'un jet à l'autre."
+          },
+          "3": {
+            "question": "Est-il permis de fumer à bord ?",
+            "answer": "Certains jets privés permettent de fumer à bord, mais cela varie d'un jet à l'autre."
+          },
+          "4": {
+            "question": "Les animaux de compagnie sont-ils autorisés à bord ?",
+            "answer": "Nos clients peuvent emmener leurs animaux de compagnie à bord de la plupart des jets privés, et nous veillons à ce qu'ils soient très confortables pendant toute la durée du vol."
+          }
+        }
+      },
+      "Services": {
+        "title": "Nos services",
+        "questions": {
+          "1": {
+            "question": "Quelles sont les options de transport au sol disponibles ?",
+            "answer": "Les options de transport au sol sont illimitées mais adaptées à la demande du client."
+          },
+          "2": {
+            "question": "Comment puis-je faire part de mes besoins particuliers et de mes services ?            ",
+            "answer": "Lorsque vous demandez un devis, vous pouvez indiquer les besoins spéciaux ou les services dont vous pourriez avoir besoin et notre équipe de classe mondiale les mettra à votre disposition."
+          },
+          "3": {
+            "question": "CharterXE réserve-t-il un hôtel pour moi ?",
+            "answer": "Nous avons établi des partenariats avec des hôtels et des complexes hôteliers afin d'offrir à nos clients la meilleure expérience possible."
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "menu": {
+      "about": {
+        "title": "A propos de nous",
+        "link": "about-us"
+      },
+      "explore": {
+        "title": "Explorer",
+        "link": "explore"
+      },
+      "request": {
+        "title": "Demande de devis",
+        "link": "request-quote"
+      },
+      "member": {
+        "title": "Formulaire d'adhésion",
+        "link": "membership-form"
+      },
+      "testtimonials": {
+        "title": "Témoignages",
+        "link": "testimonials"
+      },
+      "types": {
+        "title": "Types d'avions",
+        "link": "/aircrafts"
+      },
+      "tac": {
+        "title": "Conditions générales d'utilisation",
+        "link": "/terms"
+      },
+      "privacy": {
+        "title": "Politique de confidentialité",
+        "link": "/privacy"
+      }
+    },
+    "connect": {
+      "title": "Se connecter",
+      "socials": {
+        "instagram": {
+          "title": "Instagram",
+          "link": "https://www.instagram.com/charterxe/"
+        },
+        "twitter": {
+          "title": "Twitter",
+          "link": "https://twitter.com/CharterXE"
+        },
+        "linkedin": {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/company/charterxe/"
+        },
+        "facebook": {
+          "title": "Facebook",
+          "link": "https://web.facebook.com/people/Charterxe/100091496272290/"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Courriel: hello@charterxe.com",
+      "phone": "Téléphone: +23413430615"
+    }
+  },
+  "aircraft": {
+    "hero": {
+      "title": "En savoir plus sur les avions",
+      "sub": "Un aéronef est un véhicule spécialisé équipé d'ailes et d'un ou plusieurs moteurs, conçu pour naviguer dans l'air. Si le terme \"avion\" désigne souvent un type spécifique d'appareil à ailes fixes, le terme plus large d'\"aéronef\" englobe toute une série de véhicules, y compris les hélicoptères et autres.",
+      "scroll": "Cliquer pour dérouler"
+    },
+    "components": {
+      "title": "COMPOSANTS DE L'AVION",
+      "sub": "Quels sont les composants de base d'un avion ?",
+      "desc": "La plupart des avions contiennent des composants de base. Cependant, certains avions ont des composants plus avancés."
+    },
+    "specs": {
+      "badge": "SPÉCIFICATIONS DES AÉRONEFS",
+      "title": "Quelles sont les spécifications de l'avion ?",
+      "items": {
+        "1": {
+          "title": "Envergure, longueur et hauteur",
+          "desc": "Les dimensions d'un aéronef ont un impact sur ses performances et ses capacités. Une plus grande envergure permet généralement une meilleure portance, tandis que la longueur et la hauteur ont une incidence sur l'aérodynamisme.",
+          "img": "/span.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "2": {
+          "title": "Types de moteurs et poussée",
+          "desc": "Les moteurs d'avion sont de quatre types : à piston, à turbofan, à turbopropulseur et à réaction. La poussée générée par les moteurs propulse l'avion vers l'avant.",
+          "img": "/sett.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "3": {
+          "title": "Autonomie et endurance",
+          "desc": "L'autonomie est la distance maximale qu'un avion peut parcourir avant de tomber en panne de carburant, tandis que l'endurance est la durée maximale pendant laquelle il peut rester en l'air.",
+          "img": "/ham.png",
+          "style": {
+            "gridColumn": "span 4 / span 4"
+          }
+        },
+        "4": {
+          "title": "Poids maximum au décollage (MTOW)",
+          "desc": "MTOW est l'abréviation de \"Maximum Take-Off Weight\" (\"poids maximal au décollage\"). Il s'agit du poids maximal qu'un aéronef est autorisé à avoir au décollage, y compris le poids de l'aéronef lui-même, du carburant, des passagers, du fret et de tout ce qui se trouve à bord.",
+          "img": "/scal.png",
+          "style": {
+            "gridColumn": "span 4 / span 4",
+            "gridColumnStart": "3"
+          }
+        },
+        "5": {
+          "title": "Vitesse de croisière et altitude",
+          "desc": "La vitesse de croisière est la vitesse moyenne en vol, tandis que l'altitude correspond à la hauteur au-dessus du niveau de la mer à laquelle l'avion évolue.",
+          "img": "/meter.png",
+          "style": {
+            "gridColumn": "span 4 / span 4",
+            "gridColumnStart": "7"
+          }
+        }
+      }
+    },
+    "categories": {
+      "badge": "CATÉGORIES D'AVIONS",
+      "title": "Quelles sont les catégories d'avions ?",
+      "sub": "Une catégorie d'aéronefs est la classification la plus générale des aéronefs en fonction de leur utilisation et de leur environnement d'exploitation. l'utilisation et l'environnement d'exploitation. Les différentes catégories d'aéronefs sont les suivantes ",
+      "items": {
+        "1": {
+          "name": "l'avion",
+          "desc": "Un avion est un véhicule plus lourd que l'air qui utilise des ailes pour voler. Il est propulsé par un moteur et possède des ailes fixes. Les ailes créent une portance qui permet à l'avion de voler."
+        },
+        "2": {
+          "name": "planeur",
+          "desc": "Glider description goes here."
+        },
+        "3": {
+          "name": "Rotocoptère",
+          "desc": "Rotocraft description goes here."
+        },
+        "4": {
+          "name": "Avion plus léger que l'air",
+          "desc": "Lighter-Than-Air description goes here."
+        },
+        "5": {
+          "name": "Ascenseur à moteur",
+          "desc": "Power Lift description goes here."
+        },
+        "6": {
+          "name": "Contrôle du poids",
+          "desc": "Weight-Shit Control description goes here."
+        },
+
+        "7": {
+          "name": "Fusée",
+          "desc": "Rocket description goes here."
+        }
+      }
+    },
+    "types": {
+      "badge": "TYPES D'AVIONS",
+      "title": "Quels sont les types d'avions ?",
+      "sub": "Les avions peuvent être classés en trois catégories principales en fonction de leur utilisation : passagers, cargo et militaire. selon leur utilisation : passagers, fret et militaire. "
+    },
+    "privateJet": {
+      "badge": "TYPES DE JETS PRIVÉS",
+      "title": "Quels sont les types de jets privés disponibles à l'affrètement ? ",
+      "sub": "Il existe de nombreux types de jets privés disponibles à l'affrètement, allant du petit avion à l'avion de ligne. des jets légers aux grands avions à long rayon d'action. Voici quelques catégories courantes :",
+      "types": {
+        "1": {
+          "title": " Jets très légers (VLJ)",
+          "desc": "Les jets très légers (VLJ) sont les plus petits jets privés sur le marché des jets privés. Ils peuvent transporter jusqu'à 6 passagers et sont généralement plus rentables à exploiter et à entretenir que les jets plus grands. Leur petite taille leur permet d'accéder à des aéroports plus petits dotés de pistes plus courtes et de voies de circulation plus étroites, ce qui en fait une bonne option pour se rendre dans des endroits éloignés. Les jets très légers sont destinés aux vols court-courriers d'une durée maximale de 3 heures, parfaits pour les escapades de fin de semaine. L'espace pour les bagages est réduit, moins de 70 pieds cubes. La plupart des jets très légers sont certifiés pour être pilotés par un seul pilote et ont une masse maximale au décollage inférieure à 4 500 kilogrammes. Parmi les VLJ les plus couramment utilisés, figurent :",
+          "items": {
+            "1": "Eclipse 500",
+            "2": " Eclipse 400",
+            "3": "Cessna Citation Mustang",
+            "4": "Embraer Phenom 100",
+            "5": "HondaJet HA-420"
+          }
+        },
+        "2": {
+          "title": "Jets légers",
+          "desc": "Les jets légers sont idéaux pour les voyages de courte durée et les petits groupes. Ils peuvent généralement accueillir 6 à 8 passagers et voler jusqu'à 2 000 miles. Ces avions sont un bon choix pour les voyages courts, et ils ont l'avantage de pouvoir transporter plus de marchandises que les jets très légers. La capacité des bagages varie de 41 à 74 pieds cubes. Les types d'avions les plus connus dans cette catégorie sont :",
+          "items": {
+            "1": "Dassault Falcon 10",
+            "2": "Cessna Citation CJ3",
+            "3": "Cessna Citation CJ4",
+            "4": "Embraer Phenom 300",
+            "5": "Hawker 400 XP",
+            "6": "Learjet 45"
+          }
+        },
+
+        "3": {
+          "title": "Les jets de taille moyenne",
+          "desc": "offrent plus d'espace et un plus grand rayon d'action, pouvant accueillir 8 à 10 passagers et parcourir jusqu'à 3 000 miles. Les jets de taille moyenne sont plus rentables que les grands jets privés et peuvent accéder à des aéroports plus petits, tout comme les jets légers et les jets très légers. Toutefois, contrairement aux jets très légers, la plupart des jets de taille moyenne disposent de suffisamment de place debout pour un adulte moyen et d'un espace supplémentaire pour les bagages d'environ 127 pieds cubes. Les types d'avions de cette catégorie sont les suivants:",
+          "items": {
+            "1": "Challenger Jets",
+            "2": "Cessna Citation Latitude",
+            "3": "Hawker 900XP",
+            "4": "Gulfstrream G150",
+            "5": "Learjet 60",
+            "6": "Bombadier Challenger 300"
+          }
+        },
+        "4": {
+          "title": "Jet de Taille super-moyenne",
+          "desc": "Les super midsize jets sont relativement plus grands que les jets privés de luxe de taille moyenne. Ils offrent encore plus d'espace dans la cabine et peuvent accueillir de 8 à 12 passagers, et voler jusqu'à 4 000 miles. Ces avions peuvent voler sans interruption pendant sept heures à des altitudes et des vitesses de croisière, couvrant ainsi plus de 3 500 milles nautiques.  Les jets super-moyens les plus connus sont :",
+          "items": {
+            "1": "Cessna Citation X",
+            "2": "Dassault Falcon 2000",
+            "3": "Cessna Citation Sovereign",
+            "4": " Bombardier Challenger 350",
+            "5": "Gulfstream G200",
+            "6": "Gulfstream G280"
+          }
+        },
+        "5": {
+          "title": "Les jet Lourds",
+          "desc": "Les avions de cette catégorie sont plus luxueux et plus coûteux à exploiter et à entretenir que les avions de taille moyenne. Ils ont une plus grande envergure et de plus grands réservoirs de carburant, ce qui leur confère une autonomie d'environ 9 heures ou 6 000 kilomètres. Ils sont conçus pour les voyages à longue distance, pouvant accueillir de 10 à 18 passagers et parcourir jusqu'à 4 000 à 7 500 milles. Les avions de cette catégorie ont besoin de pistes d'atterrissage plus longues, de sorte que les passagers peuvent subir des retards dans les aéroports encombrés. Les avions de cette catégorie comprennent :",
+          "items": {
+            "1": "Dassault Falcon 900",
+            "2": "Gulfstream G350",
+            "3": "Cessna Citation Sovereign",
+            "4": " Bombardier Challenger 350"
+          }
+        },
+        "6": {
+          "title": "Jets à très grande autonomie",
+          "desc": "Les jets à très grande autonomie sont conçus pour les voyages les plus longs. Ils peuvent accueillir de 12 à 19 passagers et parcourir plus de 7 500 milles. Ce rayon d'action permet de voler environ 12 heures à la vitesse de croisière. Les jets lourds à très long rayon d'action conviennent aux vols transocéaniques entre les continents et sont idéaux pour les voyageurs fréquents qui parcourent de longues distances. Ces jets privés sont plus chers à affréter, à louer ou à acquérir que les autres catégories plus petites, et sont considérés comme un symbole de luxe et de confort par la plupart des voyageurs qui les choisissent pour leurs déplacements aériens. Les jets lourds à très long rayon d'action les plus connus sont les suivants :",
+          "items": {
+            "1": "BomBombardier Global 6000",
+            "2": "Embraer Lineage 1000",
+            "3": "Dassault Falcon 7x",
+            "4": " Gulfstream V",
+            "5": "Bombardier Global 7500"
+          }
+        },
+        "7": {
+          "title": "Avions de ligne d'affaires",
+          "desc": "Les avions de ligne d'affaires (également appelés Bizliners) sont de grands jets privés coûteux pouvant accueillir de 20 à 50 passagers. Ils sont dotés d'équipements de luxe et d'équipements professionnels tels que des salles de conférence et des douches. Air Force One en est un exemple, avec des systèmes militaires avancés. Les avions de cette catégorie sont soit fabriqués sur mesure, soit convertis à partir d'avions de ligne. Ils sont utilisés par les chefs d'État, les célébrités et les personnes fortunées. Voici quelques-uns des avions de ligne disponibles sur le marché :",
+          "items": {
+            "1": " Airbus Corporate Jet ACJ 380",
+            "2": "Airbus corporate Jet ACJ 319",
+            "3": "Boeing Business Jet BBJ",
+            "4": " Gulfstream V",
+            "5": "Bombardier Global 7500"
+          }
+        }
+      }
+    }
+  }
+}

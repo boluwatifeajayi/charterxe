@@ -1,67 +1,90 @@
-'use client'
-import React, { useState } from 'react';
-import Image from 'next/image';
-import phone from '../assets/images/phone-middle.png';
-import radar from '../assets/images/radar-2.png'
+"use client";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import phone from "../assets/images/phone-middle.png";
+import radar from "../assets/images/radar-2.png";
+import { useTranslations, useMessages } from "next-intl";
 
 const Services: React.FC = () => {
-  const [accordionItems, setAccordionItems] = useState([
-    { title: 'Private Jet Charters', content: 'Our no-code and API solutions support 20+ payment methods,  and we offer bank payouts in 11 countries so you can getpaid quickly.', isOpen: false },
-    { title: 'Personalized Itineraries', content: 'Content 2', isOpen: false },
-    { title: 'Effortless Booking', content: 'Our no-code and API solutions support 20+ payment methods,  and we offer bank payouts in 11 countries so you can getpaid quickly.', isOpen: false },
-    { title: 'Exclusive Membership', content: 'Content 4', isOpen: false },
-    { title: '24/7 Concierge', content: 'Content 5', isOpen: false },
-    { title: 'Global Destinations', content: 'Content 6', isOpen: false },
-   
-  ]);
+  const [activeService, setActiveService] = useState<null | number>(null);
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const t = useTranslations("services");
+  const messages: any = useMessages();
+  const services = messages.services as any;
+  const messagesKeys = Object.keys(messages.services?.services);
+
+  const imageSources = [
+    "/one.svg",
+    "/two.svg",
+    "/three.svg",
+    "/four.svg",
+    "/five.svg",
+    "/six.svg",
+  ];
 
   const toggleAccordion = (index: number) => {
-    const updatedItems = [...accordionItems];
-    updatedItems[index].isOpen = !updatedItems[index].isOpen;
-    setAccordionItems(updatedItems);
+    if (activeService === index) {
+      setActiveService(null);
+    } else {
+      setActiveService(index);
+      setCurrentImageIndex(index);
+    }
   };
 
   return (
-    <section id="services" className='story px-6 md:px-20 py-16 bg-[#fff]'>
-      <div className='block md:flex hero gap-2 md:gap-32'>
-        <div>
-          <p className='text-[#0129A4] font-bold'>OUR SERVICES</p>
-          <p className='text-[#18254A] text-4xl font-bold mt-2 mb-5'>
-            Where luxury and travel <br />
-            converge at 30,000 feet
+    <section id="services" className="story px-6 md:px-16 py-16 bg-[#fff]">
+      <div className="block container mx-auto md:flex hero gap-2 md:gap-32">
+        <div className="w-full sm:w-1/2">
+          <p className="text-[#0129A4] font-bold ">
+            {
+              // @ts-ignore
+              t("badge")
+            }
           </p>
-          <Image src={phone} alt="image" className='mt-8' />
+          <p className="text-[#18254A] text-3xl sm:text-4xl font-bold mt-2 mb-5">
+            {t("title")}
+          </p>
+          <Image
+            src={imageSources[currentImageIndex]}
+            width={100}
+            height={100}
+            alt="image"
+            className="w-full h-full mt-8 transform hover:scale-105 transition-transform duration-300"
+          />
         </div>
-        <div>
-          <p className='text-gray-500 mt-12'>
-            Step into a world where luxury and travel seamlessly unite
-            <br />at soaring altitudes. Elevate your experience with opulent
-            <br /> interiors, personalized service, and breathtaking vistas.
-          </p>
+        <div className="w-full sm:w-1/2">
+          <p className="text-gray-500 mt-12">{t("p1")}</p>
 
-          <div className='mt-12'>
-            {/* Accordions */}
-            {accordionItems.map((item, index) => (
-              <div key={index} className='mb-5'>
+          <div className="mt-12">
+            {messagesKeys.map((item: any, index: number) => (
+              <div key={index} className="mb-5">
                 <div
                   className={`cursor-pointer flex border-b pb-4 font-semibold items-center ${
-                    item.isOpen ? 'text-gray-900' : 'text-gray-500'
+                    activeService === index ? "text-gray-900" : "text-gray-500"
                   }`}
                   onClick={() => toggleAccordion(index)}
                 >
-                  {item.isOpen ? (
-                   <Image src={radar} alt='radar' className='mr-3'/>
+                  {activeService === index ? (
+                    <Image src={radar} alt="radar" className="mr-3" />
                   ) : (
-                    <Image src={radar} alt='radar' className='mr-3'/>
+                    <Image src={radar} alt="radar" className="mr-3" />
                   )}
-                  {item.title}
-                  
+                  {
+                    // @ts-ignore
+                    t(`services.${item}.title`)
+                  }
                 </div>
-                {item.isOpen && (
-                  <div className='pl-9 text-gray-600 pt-4 w-96 text-sm'>{item.content}</div>
+                {activeService === index && (
+                  <div className="pl-9 text-gray-600 pt-4 w-96 text-sm">
+                    {
+                      // @ts-ignore
+                      t(`services.${item}.content`)
+                    }
+                  </div>
                 )}
               </div>
-              
             ))}
           </div>
         </div>
